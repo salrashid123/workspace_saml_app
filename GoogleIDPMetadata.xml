@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://accounts.google.com/o/saml2?idpid=C023zw3x8" validUntil="2026-12-16T17:18:02.000Z">
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDdDCCAlygAwIBAgIGAX3JZpSxMA0GCSqGSIb3DQEBCwUAMHsxFDASBgNVBAoTC0dvb2dsZSBJ
+bmMuMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MQ8wDQYDVQQDEwZHb29nbGUxGDAWBgNVBAsTD0dv
+b2dsZSBGb3IgV29yazELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWEwHhcNMjExMjE3
+MTcxODAyWhcNMjYxMjE2MTcxODAyWjB7MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEWMBQGA1UEBxMN
+TW91bnRhaW4gVmlldzEPMA0GA1UEAxMGR29vZ2xlMRgwFgYDVQQLEw9Hb29nbGUgRm9yIFdvcmsx
+CzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAmzlliwOfGPz6H6tR+RdKR7xEm7HGQi2Mwai0TdIDc9kKV2d+EeQvKpxHP0zcbSx9
+BAbpPOn9UauN9CWRAR58S7aBpfUZecfn7F0ty4hLE64iIvt+JHchovtcKdpXAt5G/YDHnklTEO6a
+/4IEHQUD+RZUYNizgmOkH8D2BTrq7bYJ6nQAjbgRFSXuf5+1BImL+A51r/yhuy3sq6zMo9IwRRsW
+7H+XJKm3Uqxz8eyNskCEOcf9SB/WYVSKEXqQ1ohF7GXZKM2IylXQIg0qoYuP94KwKOP5gKz8RTXb
+u3oQXm3FWq8B9jXZcmFdD8JVfoYlm76jSn27g4hzhIxnWahNzwIDAQABMA0GCSqGSIb3DQEBCwUA
+A4IBAQAA5P6VVG5jBvoaFGoJqAZPpAHJ0BH7PGyIBGg8pmN31dvzCvhOsdw8XPRIBf1B+DrbLpK/
+b1+VCPlVjv2FgYv6ERTmyiZBT+9MvdYLYIoXhB4TBJuEztIRKmcKN69Im70BwKQEK3bfDmb7p6fz
+K7RfbJbLU7AsNVnOmqP5rc3IILsOmy/UYX/ETVPPXL57T6E4gUeiW4jSQWfGIU1lmzj1pc+xsG8o
+o36lY4iisqd+S8mdt8ObrH9e37lcNG44uIBjRDIl5rcet4g5lHKzYLy/HD/4mKx3ERjCaolbjHZ4
+h8H4bkatRqp3Mz+3VmZLpn9+sA/HJZWV4VH8mffNi+1W</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDdDCCAlygAwIBAgIGAYBrtMdFMA0GCSqGSIb3DQEBCwUAMHsxFDASBgNVBAoTC0dvb2dsZSBJ
+bmMuMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MQ8wDQYDVQQDEwZHb29nbGUxGDAWBgNVBAsTD0dv
+b2dsZSBGb3IgV29yazELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWEwHhcNMjIwNDI3
+MTU0NzMwWhcNMjcwNDI2MTU0NzMwWjB7MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEWMBQGA1UEBxMN
+TW91bnRhaW4gVmlldzEPMA0GA1UEAxMGR29vZ2xlMRgwFgYDVQQLEw9Hb29nbGUgRm9yIFdvcmsx
+CzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAzt7rxxR7ZOzyQ98AjOoldAZ1Cu8wuYXs2bUgdHyVOTFayfukNgk7qeiEMEJtyHtl
+hpGQfTCq3ojZS25p6tOxWdvPoLQOc9vFUCHDbmv20Zil7mf+y6qO82fV9ewZHakZLQUONKx1LDt7
+ZRwDRmuNqMjXTKIX6JIS1I4sFZaptsYCd/kUh0Im2i6zqFch1OVJkd0xyok1XhXc7VDsGRi+TJmN
+vx4SppJloGeOo5TACGIQecxvdQPGc2gA15NjgtiwePmI7VCM5ovPQ0n3on4dBpulMoQ5ippPTf5b
+/VLW+ZIsZeVVLLHwFEYQnchXK22gmfp6Kz3AHPtre1fXjbQkQwIDAQABMA0GCSqGSIb3DQEBCwUA
+A4IBAQCrqO2ZWP6B4uh7oP1wnZlYZL59FXkfwz4i565Njn0iRpL6Nwa63r28cEAtKkbCAnTCywGK
+qhRwY3KfXYffxFwrnO6ZjbezkeYdjuZAG1dolFqZ3lohCF51N2fcjUkuJ8PSN8atxABWN/bRjBlT
+8gDH/kFd+iUWJ571awVnaXf5uP4IBbYw/M5cVH1ZCuLcIbgaFWgBXH2+wb3XIblZAqX+fq5iD1Y/
+5ALRip0aLohKTBc4NWyNSUdcVYg8n5/TXttEFuJTXX8aLN6752vK+ND5cP5bDo3n0JlxvH7Nzu+E
+OXD7P+ft4TJrsf+99PCIK1sGbOXOKFs1sxVOWf6VGRtN</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://accounts.google.com/o/saml2/idp?idpid=C023zw3x8"/>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://accounts.google.com/o/saml2/idp?idpid=C023zw3x8"/>
+  </md:IDPSSODescriptor>
+</md:EntityDescriptor>
