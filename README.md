@@ -246,9 +246,9 @@ Token contents, {
 
 #### Mapping Groups
 
-You can also define an attribute map for a group which will convey an attribute that defines a set of group the user maybe a member of
+You can also define an attribute which will convey a list of predefined groups the user is a member of
 
-Suppose user below is a member of these five groups
+Suppose user below is a member of these six groups
 
 ```bash
 gcloud identity groups memberships search-transitive-groups \
@@ -262,11 +262,11 @@ group_of_groups_1
 all_users_group
 ```
 
-if you define an attribute emap like this that says "if the user is a member of these gruops, populate an attribute with those groups as values"
+if you define an attribute map like this that says "if the user is a member of these gruops, populate an attribute with those groups he/she is a member of"
 
 ![images/group_mapping.png](images/group_mapping.png)
 
-the resulting map would show one of the values since the user is a member of `ssogroup` and `group4_7`
+the resulting map would show tow  values since the user is a member of `ssogroup` and `group4_7`
 
 ```xml
 <saml2:AttributeStatement>
