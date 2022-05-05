@@ -244,6 +244,49 @@ Token contents, {
 
 >> NOTE: since ths is a demo, once you finish, just delete the SAML App and the group memebership
 
+#### Mapping Groups
+
+You can also define an attribute map for a group which will convey an attribute that defines a set of group the user maybe a member of
+
+Suppose user below is a member of these five groups
+
+```bash
+gcloud identity groups memberships search-transitive-groups \
+   --labels="cloudidentity.googleapis.com/groups.discussion_forum" \
+   --member-email="user4@domain.com" --format=json | jq -r '.memberships[].displayName'
+
+group8_10
+group4_7
+ssoappgroup
+group_of_groups_1
+all_users_group
+```
+
+if you define an attribute emap like this that says "if the user is a member of these gruops, populate an attribute with those groups as values"
+
+![images/group_mapping.png](images/group_mapping.png)
+
+the resulting map would show one of the values since the user is a member of `ssogroup` and `group4_7`
+
+```xml
+<saml2:AttributeStatement>
+   <saml2:Attribute Name="mygroups">
+      <saml2:AttributeValue 
+         xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:type="xs:anyType">
+         ssoappgroup
+      </saml2:AttributeValue>
+      <saml2:AttributeValue 
+         xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:type="xs:anyType">
+         group4_7
+      </saml2:AttributeValue>
+   </saml2:Attribute>
+</saml2:AttributeStatement>
+```
+
 ##### Decoding SAMLRequest/Response
 
 To decode items, first [urldecode](https://www.urldecoder.org/), then [base64decode](https://www.base64decode.org/), then [saml decode](https://www.samltool.com/decode.php), finally [prettyprint](https://www.freeformatter.com/xml-formatter.html#ad-output)
